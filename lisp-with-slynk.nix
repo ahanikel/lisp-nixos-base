@@ -3,7 +3,7 @@
 , emacsPackages
 , coreutils
 }:
-{ lispWithSlynk = stdenv.mkDerivation {
+{ lisp-with-slynk = stdenv.mkDerivation {
     name = "lisp-with-slynk";
     version = "1.0.0";
     inherit sbcl coreutils;
